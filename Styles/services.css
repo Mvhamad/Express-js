@@ -24,3 +24,9 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
+.serv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
