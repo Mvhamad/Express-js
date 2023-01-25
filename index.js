@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 5000
-
+var path = require('path')
 // Middleware to verify the time of the request
 app.use(function (req, res, next) {
     var time = new Date
@@ -11,7 +11,7 @@ app.use(function (req, res, next) {
     next();
   });
 
-app.use(express.static(__dirname + "/views"));
+app.use(express.static(path.join(__dirname , "/Styles")));
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {

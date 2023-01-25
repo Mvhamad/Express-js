@@ -1,0 +1,49 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-image: url(https://t4.ftcdn.net/jpg/03/53/99/55/360_F_353995594_6AW7CYzgqkSTCMktfFSm2XyjvLDzauDX.jpg);
+    background-repeat: no-repeat;
+    background-size: 100rem 110vh;
+}
+
+ /* navbar */
+a {
+    display: bloc;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    color: black;  
+}
+a:hover {
+    background-color: #000;
+    color: #fff;
+    width: 20%;
+}
+nav {
+    display: flex;
+    background-color: beige;
+    height: 1.5em;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+p {
+    font-size: xx-large;
+    color: #fff;
+}
+h2 {
+    font-size: xx-large;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.message, .about-us {
+    padding: 2em;
+}

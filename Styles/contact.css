@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://nogeda.org/wp-content/uploads/2022/01/Contact_header_2880x1000px.jpg);
+    background-size: 100rem 110vh;
+    background-repeat: no-repeat;
+    padding: 0%;
+    margin: 0%;
+}
+
+ /* navbar */
+a {
+    display: bloc;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    color: black;  
+}
+a:hover {
+    background-color: #000;
+    color: #fff;
+    width: 20%;
+}
+nav {
+    display: flex;
+    background-color: beige;
+    height: 1.5em;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.container {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+.txt , textarea{
+    width: 70%;
+    margin-top: 1rem;
+}
+.txt {
+    height: 2em;
+    border-radius: 5px;
+}
+

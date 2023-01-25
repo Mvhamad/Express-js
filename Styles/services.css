@@ -1,0 +1,26 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+ /* navbar */
+a {
+    display: bloc;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    color: black;  
+}
+a:hover {
+    background-color: #000;
+    color: #fff;
+    width: 20%;
+}
+nav {
+    display: flex;
+    background-color: beige;
+    height: 1.5em;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}

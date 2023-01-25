@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Styles/contact.css">
+    <meta name="viewport" content="wclassth=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
     <title>Contact</title>
 </head>
+
 <body>
     <div class="nav">
-        <div class="nav-links">
-          <a href="/" >HOME</a>
-          <a href="/services">Our Services</a >
-          <a href="/contact"
-            >Contact</a >
-          </div>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, a qui? Autem doloremque facilis, porro saepe aliquid quam possimus aspernatur id architecto fugit et non nostrum sint! Nemo, tenetur repellendus.</p>
-</body>
-</html>
+        <nav>
+          <a href="/">HOME</a>
+          <a href="/services"> Our Services </a>
+          <a href="/contact"> Contact </a>
+        </nav>
+      </div>
+
+    <div class="container">
+        <div>
+            <p> For more informations please fill out this form to contact us</p>
+            <form action="action_page.php">
+                <div class="inf">
+                    <label >First Name</label>
+                    <input required class="txt" type="text" name="firstname" placeholder="Your name..">
+                </div>
+                <div class="inf">
+                    <label >Last Name</label>
+                    <input required class="txt" type="text" name="lastname" placeholder="Your last name..">
+                </div>
+                <div class="inf">
+                    <label >Email</label>
+                    <input required class="txt" type="email" name="Email placeholder=" Your email..">
+                </div>
+                <div>
+                    <textarea required name="subject" placeholder="Write Your Message here.." style="height:200px"></textarea>
+                </div>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
 
 </body>
+
 </html>
